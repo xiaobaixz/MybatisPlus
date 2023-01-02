@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    # 连接类型
+    type: com.zaxxer.hikari.HikariDataSource
+    # MySQL的驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # MySQL的url
+    url: jdbc:mysql://localhost:3306/mybatis_plus?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+
+mybatis-plus:
+  configuration:
+    # 开启打印MyBatis plus生成的日志信息
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
