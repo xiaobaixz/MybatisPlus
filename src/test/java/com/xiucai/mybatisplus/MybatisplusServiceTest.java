@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 /**
  * @author xiucai
  * @date 2022/12/25 17:23
- * @description
+ * @description Service的测试
  */
 @SpringBootTest
 public class MybatisplusServiceTest {
